@@ -12,21 +12,22 @@ body {
 
 h1,
 h2 {
-    color: red;
+    color: var(--primary-color);
 }
 
 p {
-    color: white;
+    color: gray(222, 128, 128);
 }
 
 .container {
-    color: pink;
+    color: rgb(93, 50, 57);
     padding: 1rem;
 }
 
 .center-container {
     max-width: 600px;
     margin: auto;
+    text-align: center;
 }
 
 .link {
@@ -34,6 +35,7 @@ p {
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     color: aliceblue;
+    
 }
 
 .p-link {
@@ -43,21 +45,59 @@ p {
 
 .s-link {
     border: 1px solid var(--primary-color);
+    color: #7C3AeD;
 }
 
-.navigation{
+.navigation {
     background-color: var(--primary-color);
-    border-radius: 1rem;
+    border-bottom-left-radius: 1rem;
     padding: 1rem;
+
 }
 
-.navigation .nav-pills{
+.my-footer {
+
+    background-color: var(--primary-color);
+    border-top-right-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.my-footer .brand{
+    color: black;
+    font-size: larger;
+}
+
+.navigation .nav-pills {
     text-align: right;
+
 }
-.brand{
-    /* padding: 0.5rem 1rem; */
+.nav-pills{
+    padding-inline-start: 0;
+}
+
+.brand {
+    padding: 0.5rem 1rem;
+    font-size: x-large;
     font-weight: bold;
+    color: burlywood;
 }
+
 .nav-item {
     display: contents;
+}
+
+.my-header {}
+
+.header-image {
+    width: 500px;
+    padding-top: 5rem;
+    margin: auto;
+    display: block;
+}
+
+.header-heading {
+    text-align: center;
+    color: grey;
 }
